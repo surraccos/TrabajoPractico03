@@ -10,11 +10,6 @@ namespace Ejercicio01
     {
         static void Main(string[] args)
         {
-            Perro perro= new Perro();
-            Gato gato= new Gato();
-            Animal[] animales = { perro, gato};
-            Veterinaria Vet = new();
-            Vet.AceptarMasDeUnAnimal(animales);
 
         }
     }
